@@ -89,7 +89,7 @@ close(file1)
 ## 3    news 261.8 MB 1010242 170429117 34372530
 ```
 
-![](milestone_new_files/figure-html/chunk3-1.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk3-1.png)<!-- -->
 
 Above table gives an approximate information about the three file sizes, word, line and character count. Figure 1, also gives the same information in log scale. It is interesting but understandable that there is more lines yet less word count in twitter compared to blog and news corpora. 
 
@@ -212,17 +212,17 @@ Frequency of word and word pairs are shown in the following bar plots using N-gr
 ```
 
 
-![](milestone_new_files/figure-html/chunk8-1.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk8-1.png)<!-- -->
 
 I did not remove stop words prior to bi- and tri-gram tokenization during cleaning phase. The consequence is evident from next two bar plots. Figure 3 and 4 show the top fifteen frequently used bi- and tri-grams of all three corpora. Word pairs are mainly consist of stop words (Example: "i am", "of the", "i do not"). The 2nd top tri-gram in twitter is "thanks for the". This tri-gram indicates that twitter is a social media network, where users thank each other. There are total 1027552, 1197674 and 1210281 unique bi-grams; and 2158357, 2696061 and 2560883 unique tri-grams in twitter, blog and news data samples, respectively.
 
-![](milestone_new_files/figure-html/chunk9-1.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk9-1.png)<!-- -->
 
-![](milestone_new_files/figure-html/chunk10-1.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk10-1.png)<!-- -->
 
 Word Cloud is another fancy and eye-catching way to demonstrate the distribution of words.
 
-![](milestone_new_files/figure-html/chunk11-1.png)<!-- -->![](milestone_new_files/figure-html/chunk11-2.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk11-1.png)<!-- -->![](Capstone_swiftkey_milestonereport/figure-html/chunk11-2.png)<!-- -->
 
 
 
@@ -233,7 +233,7 @@ Figure 5, shows the 15 most common (based on the sum of the tokens) uni-grams be
 Figure 6 and 7 show the top 15 common bi- and tri-grams between three corpora. There are 151904 and 110251 common bi- and tri-grams, respectively. Although, "thanks for the" tri-gram is in the top common list (mostly in twitter corpus) but almost unseen in blog and news corpora. 
 
 
-![](milestone_new_files/figure-html/chunk13-1.png)<!-- -->![](milestone_new_files/figure-html/chunk13-2.png)<!-- -->![](milestone_new_files/figure-html/chunk13-3.png)<!-- -->
+![](Capstone_swiftkey_milestonereport/figure-html/chunk13-1.png)<!-- -->![](Capstone_swiftkey_milestonereport/figure-html/chunk13-2.png)<!-- -->![](Capstone_swiftkey_milestonereport/figure-html/chunk13-3.png)<!-- -->
 
 
 ### How many unique words do you need in a frequency sorted dictionary to cover 50% of all word instances in the language? 90%?
